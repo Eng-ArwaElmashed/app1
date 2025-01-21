@@ -1,0 +1,18 @@
+.bg{
+    background-color: rgb(44, 62, 80);
+}
+.bg2{
+    background-color: rgb(26, 37, 47);
+}
+svg{
+    width: 60%;
+    color: white;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border:2px solid ;
+    border-radius: 50%;
+    
+    
+}

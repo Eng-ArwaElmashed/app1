@@ -1,0 +1,20 @@
+.cont {
+    /* background-color:  rgb(26, 188, 156); */
+    padding-top: 290px;
+    padding-bottom: 270px;
+}
+
+i{
+    color: white;
+    
+}
+
+.line {
+    width: 100px;
+    height: 4px;
+    background-color: white;
+}
+
+.chnagecolor {
+    background-color: rgb(26, 188, 156);
+}

@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(26, 188, 156);
+}
+svg{
+    width:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background-color:white ; 
+}
+p{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+.cont{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+img{
+    width: 300px;
+}
+.chnagecolor{
+    background-color: rgb(26, 188, 156);
+}

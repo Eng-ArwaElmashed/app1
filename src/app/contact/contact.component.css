@@ -1,0 +1,33 @@
+.line {
+    width: 100px;
+    height: 4px;
+    background-color: rgb(44, 62, 80);
+}
+h1{
+    color:rgb(44, 62, 80);
+}
+.cont{
+    padding-top: 150px;
+    padding-bottom: 250px;
+}
+i{
+    color:rgb(44, 62, 80);
+}
+input{
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    margin-top: 15px;
+    border-color: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+}
+input:focus {
+    color: gray;
+    outline:unset;
+}
+.form{
+    margin-top: 70px;
+}
+button{
+    background-color: rgb(26, 188, 156);
+    color: white;
+}

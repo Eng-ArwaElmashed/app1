@@ -1,0 +1,85 @@
+.line {
+    width: 100px;
+    height: 4px;
+    background-color: rgb(44, 62, 80);
+}
+
+h1 {
+    color: rgb(44, 62, 80);
+}
+
+.cont {
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+i {
+    color: rgb(44, 62, 80);
+}
+
+.image-container {
+    position: relative;
+}
+
+img {
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(26, 185, 160);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+i{
+    color:white;
+    font-size: 96px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(32, 174, 142);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(32, 174, 142,0.2); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.modal-image {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
